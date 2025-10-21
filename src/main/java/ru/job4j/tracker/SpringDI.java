@@ -8,8 +8,8 @@ public class SpringDI {
         context.scan("ru.job4j.tracker");
         context.refresh();
         StartUI ui = context.getBean(StartUI.class);
-        ui.add("How old are you?");
-        ui.add("Where are you from?");
+        ui.add("How old are you? ");
+        ui.add("Where are you from? ");
         ui.print();
     }
 }
